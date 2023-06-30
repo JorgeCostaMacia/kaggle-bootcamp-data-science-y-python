@@ -13,3 +13,12 @@
 
 ## Enlace
     https://www.kaggle.com/competitions/bootcamp-data-science-y-python
+
+
+### Uso
+    1- setup.ipynb                      =>  Ejecutar setup para instalar las dependencias
+    2- train_eda.ipynb                  =>   Para filtrar y procesar los datos
+    3- train_modelo.ibynb               => Para generar el modelo y entrenarlo
+    4- train_modelo_predicciones.ipynb  =>       Para ver predicciones con los datos de train    
+
+    5- test_eda.ipynb                   => En proceso
