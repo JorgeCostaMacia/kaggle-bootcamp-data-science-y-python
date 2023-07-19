@@ -17,6 +17,9 @@
 ## Enlace
     https://www.kaggle.com/competitions/bootcamp-data-science-y-python
 
+## Modelo utilizado 
+    lgb.LGBMClassifier
+    Mejor puntuación 0.87787
 
 ### Dev
     1- notebooks/setup.ipynb
