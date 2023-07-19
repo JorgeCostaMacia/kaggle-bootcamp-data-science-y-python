@@ -38,39 +38,24 @@
 
 ```
 +-- columns/
-|   +-- dev/
-|   |   +-- cat_mask_3.pkl
-|   |   +-- cat_mask_4.pkl
-|   |   +-- cat_mask_5.pkl
-|   |   +-- cat_mask_6.pkl
-|   |   +-- cat_onehot_encoder.pkl
-|   |   +-- cat_pro.pkl
-|   |   +-- cat_ctarget_encoder.pkl
-|   |   +-- cat.pkl
-|   |   +-- num_correlacion.pkl
-|   |   +-- num_onehot_encoder.pkl
-|   |   +-- num_pro.pkl
-|   |   +-- num_target_encoder.pkl
-|   |   +-- num.pkl
-|   +-- train/
-|   |   +-- cat_mask_3.pkl
-|   |   +-- cat_mask_4.pkl
-|   |   +-- cat_mask_5.pkl
-|   |   +-- cat_mask_6.pkl
-|   |   +-- cat_onehot_encoder.pkl
-|   |   +-- cat_pro.pkl
-|   |   +-- cat_ctarget_encoder.pkl
-|   |   +-- cat.pkl
-|   |   +-- num_correlacion.pkl
-|   |   +-- num_onehot_encoder.pkl
-|   |   +-- num_pro.pkl
-|   |   +-- num_target_encoder.pkl
-|   |   +-- num.pkl
+|   +-- cat_mask_3.pkl
+|   +-- cat_mask_4.pkl
+|   +-- cat_mask_5.pkl
+|   +-- cat_mask_6.pkl
+|   +-- cat_onehot_encoder.pkl
+|   +-- cat_pro.pkl
+|   +-- cat_ctarget_encoder.pkl
+|   +-- cat.pkl
+|   +-- num_correlacion.pkl
+|   +-- num_onehot_encoder.pkl
+|   +-- num_pro.pkl
+|   +-- num_target_encoder.pkl
+|   +-- num.pkl
 +-- data/
 |   +-- final/
 |   |   +-- decision_tree_classifier.csv
 |   |   +-- lgbm_classifier.csv
-|   |   +-- xgboost.csv
+|   |   +-- xgb_classiffier.csv
 |   +-- processed/
 |   |   +-- dev.csv
 |   |   +-- test.csv
@@ -79,29 +64,17 @@
 |   |   +-- test.csv
 |   |   +-- train.csv
 +-- encoders/
-|   +-- dev/
-|   |   +-- onehot.pkl
-|   |   +-- target.pkl
-|   +-- train/
-|   |   +-- onehot.pkl
-|   |   +-- target.pkl
+|   +-- onehot.pkl
+|   +-- target.pkl
 +-- imputers/
-|   +-- dev/
-|   |  +-- cat_simple.pkl
-|   |  +-- num_simple.pkl
-|   +-- train/
-|   |  +-- cat_simple.pkl
-|   |  +-- num_simple.pkl
+|   +-- cat_simple.pkl
+|   +-- num_simple.pkl
 +-- interquartiles/
-|   +-- dev/
-|   |   +-- intercuartilico.pkl
-|   +-- train/
-|   |   +-- intercuartilico.pkl
+|   +-- intercuartilico.pkl
 +-- models/
-|   +-- train/
-|   |   +-- decision_tree_classifier.pkl
-|   |   +-- lgbm_classifier.pkl
-|   |   +-- xgboost.pkl
+|   +-- decision_tree_classifier.pkl
+|   +-- lgbm_classifier.pkl
+|   +-- xgb_classiffier.pkl
 +-- notebooks/
 |   +-- eda/
 |   |   +-- dev.pkl
@@ -112,11 +85,11 @@
 |   |   +-- decision_tree_classifier.pkl
 |   |   +-- lgbm_classifier_dev.pkl
 |   |   +-- lgbm_classifier.pkl
-|   |   +-- xgboost.pkl
-|   |   +-- xgboost_dev.pkl
+|   |   +-- xgb_classiffier_dev.pkl
+|   |   +-- xgb_classiffier.pkl
 |   +-- modeling/
 |   |   +-- decision_tree_classifier.pkl
 |   |   +-- lgbm_classifier.pkl
-|   |   +-- xgboost_dev.pkl
+|   |   +-- xgb_classiffier.pkl
 |   +-- setup.pkl
 ```
