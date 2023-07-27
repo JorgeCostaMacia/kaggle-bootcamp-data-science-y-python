@@ -23,15 +23,16 @@
 
 ### Dev
     1- notebooks/setup.ipynb
-    2- notebooks/eda/dev.ipynb 
-    3- notebooks/evaluation/decision_tree_classifier_dev.ipynb 
-    4- notebooks/evaluation/lgbm_classifier_dev.ipynb 
-    5- notebooks/evaluation/xgboost_dev.ipynb 
+    2- notebooks/eda/train.ipynb                        Comentar Carga RFECV
+    3- notebooks/evaluation/data.ipynb                  Exploración de los datos
+    4- notebooks/evaluation/model.ipynb                 Para probar que modelo arroja mejor puntuación
+    5- notebooks/evaluation/hyperparametes.ipynb        Para tunear los parametros del modelo elegido
+    6- notebooks/evaluation/rfecv.ipynb                 Para sacar las variables más importantes
 
 
 ### Prod 
     1- notebooks/setup.ipynb
-    2- notebooks/eda/train.ipynb 
+    2- notebooks/eda/train.ipynb                        Descomentar Carga RFECV
     3- notebooks/eda/test.ipynb 
     4- notebooks/modeling/train.ipynb 
     5- notebooks/evaluation/{MODELO_ELEGIDO}.ipynb 
